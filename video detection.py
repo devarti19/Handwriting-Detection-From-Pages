@@ -3,7 +3,7 @@ import numpy as np
 import imutils
 from keras.models import load_model
 
-model = load_model(r'C:\Users\91758\Downloads\ML CW2\vehicle\model-030.model')
+model = load_model(r'model-030.model')
 cap = cv2.VideoCapture('video.mp4')
 currentframe = 0
 while(True):
